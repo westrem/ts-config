@@ -1,0 +1,27 @@
+{
+  "name": "@westrem/ts-config",
+  "version": "1.0.0",
+  "description": "Base config for TypeScript",
+  "main": "tsconfig.json",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:westrem/ts-config.git"
+  },
+  "homepage": "https://github.com/westrem/ts-config#readme",
+  "engines": {
+    "node": ">=14"
+  },
+  "author": "Jan Jadud <dev@gojadud.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "typescript": "^5.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "typescript",
+    "ts",
+    "config"
+  ]
+}
