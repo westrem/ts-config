@@ -19,6 +19,17 @@ yarn add --dev @westrem/ts-config
 }
 ```
 
+```
+// package.json
+{
+  "scripts": {
+    ...,
+    "lint:ts": "./node_modules/.bin/tsc --noemit",
+    "test:ts": "./node_modules/.bin/tsc --build --pretty",
+  }
+}
+```
+
 **Notable info from docs**
 
 The configuration from the base file are loaded first, then overridden by those in the inheriting config file. All relative paths found in the configuration file will be resolved relative to the configuration file they originated in.
